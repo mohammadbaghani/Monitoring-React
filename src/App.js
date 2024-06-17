@@ -1,19 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect } from "react";
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
 
 
-import Ticket from './components/Ticket/Ticket'
-import Shop from './Shop/Shop'
-import TodoList from './TodoList'
 
-import F from './DatePicker'
-import Chart from './Chart'
+
+
+import TodoList from './TodoList/TodoList'
+
+
 
 import './App.css';
 import { useLocation } from "react-router-dom";
 
-import PieChart from './PieChart'
+
 
 
 
@@ -35,7 +34,7 @@ export default function App() {
     <>
       <div >
 
-        <Header />
+   
 
 
         <Routes>
@@ -43,7 +42,6 @@ export default function App() {
      
      
 
-          <Route path='/لیست انجام وظایف ' element={<Ticket />} />
     
           <Route path='/' element={<TodoList />} />
 
@@ -52,11 +50,10 @@ export default function App() {
        
 
 
-          <Route path='/دیتا' element={<F/>} />             
-          <Route path='/چارت' element={<Chart/>} /> 
+
           
           
-          <Route path='/م' element={<PieChart/>} /> 
+    
 
         </Routes>
 

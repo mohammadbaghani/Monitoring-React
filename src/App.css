@@ -1864,8 +1864,8 @@
 
 @media screen and (min-width: 1200px) {
     .wrapper-datapicker{
-        background-color: #56CCF2;
-        width: 900px;
+        background-color: transparent;
+        width: 371px;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -1874,13 +1874,13 @@
         display: flex;
         justify-content: center;
         left: 0px;
-        align-items: center;
-    
+        align-items: center; border-radius: 5px;
     }
     
 .child-datapicker{
-    background-color: #4085bb;
-    width: 370px;
+height:60px;
+    background-color: #3884be;
+    width: 300px;
     position: relative;
     display: flex;
     margin-right: auto;
@@ -1888,9 +1888,11 @@
     right: 0px;
     left: 0px;
     justify-content: center;
-    padding-right: 120px;
+ text-align: center;
     padding-left: 0px;
     color: white;
+    border-radius: 5px;
+    direction: rtl;
 
 
 }

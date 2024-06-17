@@ -1,0 +1,525 @@
+
+@media screen and (max-width: 1200px) {   .speed{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    right: 10px;
+    transform: scale(.8);
+
+}
+
+
+    .form-control {
+        display: block;
+        width: 70%;
+        height: calc(2.em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #000000 !important;
+        background-color: #dee3e6;
+        background-clip: padding-box;
+        border: 1px solid #615f5f;
+        border-radius: 0.25rem;
+        padding-top: 5px !important;
+
+        margin-left: 53px;
+        font-family: 'vazir' !important;
+    }
+
+
+
+
+
+
+
+
+    .all-todos {
+        position: relative;
+        top: 84px;
+        z-index: 444444444444444 !important;
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+
+        padding-right: -33px;
+        border-radius: 5px;
+
+        width: 1000px;
+        margin-top: 31px;
+
+        border: 1px solid rgb(221, 221, 221);
+
+    }
+
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 35px;
+        text-align: center;
+        color: #000000 !important;
+        font-weight: 900;
+        top: 124px;
+        z-index: 1;
+        text-shadow: none;
+        position: relative;
+        font-family: 'dana';
+        z-index: 0;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        width: 200px;
+    }
+
+    .text-todo {
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'dana';
+        font-size: 29px;
+        margin-top: -204px;
+        height: 123px;
+
+        position: absolute;
+        text-align: center;
+        top: 187px;
+        font-weight: 400 !important;
+        z-index: 1;
+        background-color: #a70000;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: flex !important;
+        right: 0px !important;
+        left: 0px;
+        justify-content: center !important;
+        align-items: center !important;
+        font-weight: 400 !important;
+        width: 100% !important;
+        box-shadow: 0px 1px 12px rgb(128, 128, 128) !important;
+
+    }
+
+    .left-all {
+
+        top: -104px;
+        z-index: 444444444444444 !important;
+        display: flex;
+        justify-content: center;
+        width: 400px !important;
+
+        margin-left: auto;
+
+        position: relative;
+        left: 0px;
+        margin-right: auto;
+        right: 400px !important;
+        margin-top: 31px;
+    }
+
+    .input-right {
+        margin-right: auto;
+        left: 20px;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-end !important;
+        position: absolute !important;
+        top: 30px !important;
+        border-radius: 10px;
+        display: flex !important;
+        border: 1px solid rgb(201 210 231) !important;
+        justify-content: center !important;
+    
+        display: flex !important;
+        font-size: 15px;
+      
+        padding: 7px;
+        background-color: white;
+    
+    }
+
+    .input-left {
+        margin-right: auto;
+        right: 20px;
+        z-index: 3333333333333;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-start !important;
+        position: absolute !important;
+        border-radius: 10px;
+        top: 30px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border: 1px solid rgb(201 210 231) !important;
+        display: flex !important;
+        justify-content: center !important;
+
+        font-size: 15px;
+      
+        padding: 7px;
+    }
+
+
+   
+
+.input-parent {
+    margin-right: auto;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    width: 1100px;
+    position: relative !important;
+     top: -135px !important;
+    z-index: 3333333333333;
+    align-items: center !important;
+    background-color: #ffffff !important;
+    height: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 7px;
+
+    
+    }
+
+    .input-center {
+        padding: 7px;
+        margin-right: auto;
+        right: 0px;
+        align-items: center;
+        left: 0px;
+        justify-content: center !important;
+        z-index: 3333333333;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-start !important;
+        position: absolute !important;
+        color: black;
+        border-radius: 10px;
+        top: -20px !important;  font-size: 15px;
+        display: flex !important;
+        border: 1px solid rgb(201 210 231) !important;
+        background-color: rgb(255, 255, 255) !important;
+
+    }
+
+    .piechart {
+        margin-right: auto;
+        right: 0px;
+        align-items: center;
+        left: 0px;
+        justify-content: center !important;
+        z-index: 3333333333;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-start !important;
+        position: absolute !important;
+        color: black;
+        border-radius: 10px;
+        top: 20px !important;
+        display: flex !important;
+        
+        background-color: rgb(104, 199, 104) !important;
+    }
+    .headerone {
+        width: 80% !important;
+
+        font-family: 'Kalame';
+        border-radius: 0;
+        right: 0px;
+        left: 0px;
+        z-index: 0 !important;
+        display: flex!important;
+        top:30px;
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;    padding : 0px 50px;
+align-items: center;border-radius: 10px;
+background-color: rgb(2, 4, 58)!important;
+       margin-right: auto!important;
+       margin-left: auto!important;
+height: 45px!important;
+
+    }
+    .tow{  
+
+        background-color: rgb(39, 4, 4)!important;
+        
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .form-control {
+        display: block;
+        width: 70%;
+        height: calc(2.em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #000000 !important;
+        background-color: #dee3e6;
+        background-clip: padding-box;
+        border: 1px solid #615f5f;
+        border-radius: 0.25rem;
+        padding-top: 5px !important;
+
+        margin-left: 53px;
+        font-family: 'vazir' !important;
+    }
+
+
+
+
+
+
+
+
+    .all-todos {
+        position: relative;
+        top: 84px;
+        z-index: 444444444444444 !important;
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+
+        padding-right: -33px;
+        border-radius: 5px;
+
+        width: 1000px;
+        margin-top: 31px;
+
+        border: 1px solid rgb(221, 221, 221);
+
+    }
+
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 35px;
+        text-align: center;
+        color: #000000 !important;
+        font-weight: 900;
+        top: 124px;
+        z-index: 1;
+        text-shadow: none;
+        position: relative;
+        font-family: 'dana';
+        z-index: 0;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        width: 200px;
+    }
+
+    .text-todo {
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'dana';
+        font-size: 29px;
+        margin-top: -204px;
+        height: 123px;
+
+        position: absolute;
+        text-align: center;
+        top: 187px;
+        font-weight: 400 !important;
+        z-index: 1;
+        background-color: #a70000;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: flex !important;
+        right: 0px !important;
+        left: 0px;
+        justify-content: center !important;
+        align-items: center !important;
+        font-weight: 400 !important;
+        width: 100% !important;
+        box-shadow: 0px 1px 12px rgb(128, 128, 128) !important;
+
+    }
+
+    .left-all {
+
+        top: -104px;
+        z-index: 444444444444444 !important;
+        display: flex;
+        justify-content: center;
+        width: 400px !important;
+
+        margin-left: auto;
+
+        position: relative;
+        left: 0px;
+        margin-right: auto;
+        right: 400px !important;
+        margin-top: 31px;
+    }
+
+    .input-right {
+        margin-right: auto;
+        left: 20px;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-end !important;
+        position: absolute !important;
+        top: 30px !important;
+        border-radius: 10px;
+        display: flex !important;
+        border: 1px solid rgb(201 210 231) !important;
+        justify-content: center !important;
+    
+        display: flex !important;
+        font-size: 15px;
+      
+        padding: 7px;
+        background-color: white;
+    
+    }
+
+    .input-left {
+        margin-right: auto;
+        right: 20px;
+        z-index: 3333333333333;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-start !important;
+        position: absolute !important;
+        border-radius: 10px;
+        top: 30px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border: 1px solid rgb(201 210 231) !important;
+        display: flex !important;
+        justify-content: center !important;
+
+        font-size: 15px;
+      
+        padding: 7px;
+    }
+
+
+   
+
+.input-parent {
+    margin-right: auto;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    width: 1100px;
+    position: relative !important;
+     top: -135px !important;
+    z-index: 3333333333333;
+    align-items: center !important;
+    background-color: #ffffff !important;
+    height: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 7px;
+
+    
+    }
+
+    .input-center {
+        padding: 7px;
+        margin-right: auto;
+        right: 0px;
+        align-items: center;
+        left: 0px;
+        justify-content: center !important;
+        z-index: 3333333333;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-start !important;
+        position: absolute !important;
+        color: black;
+        border-radius: 10px;
+        top: -20px !important;  font-size: 15px;
+        display: flex !important;
+        border: 1px solid rgb(201 210 231) !important;
+        background-color: rgb(255, 255, 255) !important;
+
+    }
+
+    .piechart {
+        margin-right: auto;
+        right: 0px;
+        align-items: center;
+        left: 0px;
+        justify-content: center !important;
+        z-index: 3333333333;
+        margin-left: auto;
+        width: 300px;
+        align-self: flex-start !important;
+        position: absolute !important;
+        color: black;
+        border-radius: 10px;
+        top: 20px !important;
+        display: flex !important;
+        
+        background-color: rgb(104, 199, 104) !important;
+    }
+    .headerone {
+        width: 80% !important;
+
+        font-family: 'Kalame';
+        border-radius: 0;
+        right: 0px;
+        left: 0px;
+        z-index: 0 !important;
+        display: flex!important;
+        top:30px;
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;    padding : 0px 50px;
+align-items: center;border-radius: 10px;
+background-color: rgb(2, 4, 58)!important;
+       margin-right: auto!important;
+       margin-left: auto!important;
+height: 45px!important;
+
+    }
+    .speed{
+        display: flex;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 7px;
+        right: 10px;
+        transform: scale(.8);
+
+    }
+    .tow{  
+
+        background-color: rgb(39, 4, 4)!important;
+        
+    }
+}

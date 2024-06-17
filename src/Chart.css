@@ -33,18 +33,70 @@ iframe#webpack-dev-server-client-overlay {
   border: none !important;
 }
 
-p {
+.middle {
   font-family: 'kalame';
-  color: rgb(250, 250, 250) !important;
+  color: rgb(31, 31, 32)!important;
+  display: flex;
+  justify-content: flex-start!important;
+  align-items: center!important;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0px;
+  left: 0px;
+  position: absolute;
+  top: 159px;
+  width: 200px;
+ 
+  padding-right: 10px;
 
+}
+.down{
+  position: absolute; right: -130px!important;
+  top: 80px;  width: 600px;
+  background-color: rgb(255, 255, 255); font-size: 24px;
+  justify-content: center!important;  border: none!important;
+
+}
+.age{
+  font-family: 'dana';
+  color: rgb(70, 84, 206)!important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;text-align: center ;
+  height: 55px;
+  font-size: 22px;
+  border-radius: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 30px;
+  left: 0px;
+  position: absolute;
+  top: -10px;
+  width:55px;
+
+  
+
+}.age-year{
+  font-family: 'kalame';
+  color: rgb(0, 0, 0)!important;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 30px;  top: 5px;
   font-size: 20px;
-  border-radius: 10px;
-}
+  border-radius: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  right: 130px;
+  left: 0px;
+  position: absolute;
 
+  width:50px;
+
+}
 .recharts-tooltip-item-value {
   font-size: 17px;
   color: rgb(0, 0, 0) !important;
@@ -153,6 +205,8 @@ tspan {
   margin-right: auto !important;
   margin-left: auto !important;
   background-color: transparent !important;
+
+
 }
 
 .recharts-cartesian-axis-tick-value {
@@ -196,27 +250,54 @@ text {
   margin-right: auto;
   margin-left: auto !important;
   right: 0px !important;
-  left: 0px !important;
-  background-color: rgb(255, 255, 255) !important;
+  left: 400px !important;
+  background-color: rgb(241, 241, 241) !important;
   flex-direction: row;
   height: 600px !important;
-border: 1px solid rgb(159, 178, 204)!important;
-border-radius: 10px!important;
-  top: 650px;
-  width: 800px !important;
+border: 1px solid rgb(189, 197, 211)!important;
+border-radius: 4px!important;
+  top: 200px;
+  width: 400px!important;
 
+}
+
+.vv{
+  justify-content: center !important;
+  display: flex !important;
+  position: absolute !important;
+  margin-right: auto;
+  margin-left: auto !important;
+  right: 500px !important;
+  left: 0px !important;
+  background-color: rgb(244, 253, 243) !important;
+  flex-direction: row;
+  height: 300px !important;
+border: 1px solid rgb(146, 148, 145)!important;
+
+  top:350px;border-radius: 7px!important;
+  width: 300px!important;
+}
+.child{
+  position: absolute!important;
+  display: flex!important;
+  margin-right: auto;
+
+  width: 50%!important;top: 0px!important;
+  background-color: rgb(46, 22, 22)!important;
 }
 .recharts-legend-icon{
   background-color: rgb(255, 255, 255) !important;
 color: rgb(255, 255, 255) !important;
-fill: rgb(30, 108, 210)!important;
+
 border-radius: 50px!important;
 border: 1px solid black!important;
 }
-.recharts-rectangle{fill: rgb(30, 108, 210)!important;
+
+.recharts-rectangle{
+  width: 100px!important;
   border-radius: 50px!important;
   border: 1px solid black!important;}
-.recharts-layer recharts-bar-rectangle {
+.recharts-layer{
   justify-content: center !important;
 display: flex !important;
 position: absolute !important;
@@ -224,14 +305,31 @@ margin-right: auto;
 margin-left: auto !important;
 right: 0px !important;
 left: 0px !important;
-background-color: rgb(219, 58, 58) !important;
+fill: blue !important;
 flex-direction: row;
 height: 600px !important;
 
 top: 550px;
-width: 800px !important;
+width: 200px !important;
+}
+.recharts-bar{
+  width: 200px !important;
+
 }
 
+
+.recharts-legend-item {
+
+
+display: inline-block;
+right: 10px;
+
+position: relative;
+top: -65px;
+}
+.dama{
+  background-color: yellow!important;
+}
 span{
   color: black !important;
   width: 191px;
@@ -249,11 +347,11 @@ span{
   margin-left: auto !important;
   right: 0px !important;
   left: 0px !important;
-
+top: -20px;
   flex-direction: row;
-  height: 90% !important;
+  height: 110% !important;
 
-  width: 70% !important;
+  width: 39% !important;
 
 
 

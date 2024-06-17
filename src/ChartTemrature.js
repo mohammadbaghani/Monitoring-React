@@ -17,12 +17,10 @@ export default function App(props) {
 
 
     {
-      "دما": props.t,
-      uv: 3490,
-      pv: 4300,
+      "تولید برق ": props.n,
+      
       amt: props.title
-    },
-
+    }, 
   ];
 
 
@@ -53,7 +51,7 @@ export default function App(props) {
         <Tooltip />
         <Legend />
 
-        <Bar dataKey= "دما"  fill="rgb(153, 5, 5)" activeBar={<Rectangle fill="gold" stroke="purple" />} />
+        <Bar dataKey= "تولید برق " fill="rgb(16, 51, 148)" activeBar={<Rectangle fill="gold" stroke="purple" />} />
       </BarChart>
     </ResponsiveContainer>
   );
