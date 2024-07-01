@@ -2,4 +2,4 @@
 <br>
 </br>
 
-https://chart.liara.run :مرتبط لینک
+https://chart.liara.run :پروژه به صورت لایو اینجا
